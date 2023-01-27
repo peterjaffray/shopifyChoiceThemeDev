@@ -1,0 +1,27 @@
+{
+  "editor.fontFamily": "'CaskaydiaCove NF', 'monospace', monospace",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+  ],
+  "editor.formatOnType": true,
+  "editor.minimap.autohide": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.quickSuggestionsDelay": 30,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "terminal.explorerKind": "integrated",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove NF Mono', 'monospace', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.lineHeight": 1.05,
+}

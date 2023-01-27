@@ -1,0 +1,5 @@
+*.liquid
+
+# generated files
+shopify/assets/*.*.js
+shopify/assets/*.min.*
