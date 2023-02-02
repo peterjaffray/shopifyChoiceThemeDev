@@ -11,17 +11,14 @@
           }
         },
         "title": {
-          "type": "title"
-        },
-        "caption": {
-          "type": "text",
+          "type": "title",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -30,7 +27,9 @@
           }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -39,7 +38,9 @@
           }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -87,7 +88,6 @@
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -101,6 +101,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
         "mobile_thumbnails": "hide",
@@ -181,18 +182,19 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "product-recommendations": {
+      "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
@@ -209,6 +211,6 @@
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "product-recommendations"
   ]
 }
